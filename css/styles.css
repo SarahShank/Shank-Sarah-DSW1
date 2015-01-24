@@ -35,7 +35,7 @@ h1 {
 	opacity: 0.6 ; 											/*Setting opacity preference of header h1*/
 	font-family: "Avenir Next", "Helvetica Neue", "Source Sans Pro", "Arial", sans-serif;	/*Setting font family to preference, while allowing choice of backup fonts for different browsers*/
 	font-weight: 400 ; 										/*Setting my font weight preference within header h1*/
-	margin-bottom: 20px ; 									/*Setting margin bottom to desired pixels within header h1*/
+	margin-bottom:59px ; 									/*Setting margin bottom to desired pixels within header h1*/
 	padding: 35px ; 										/*Setting padding to desired pixels within the header h1*/
 	direction: ltr ; 										/*Setting direction of text to display 'left to right'*/
 }
@@ -108,7 +108,7 @@ ul {
 	border:ridge 3px rgba(63,191,191,1) ; 					/*Setting border property to 'ridge', width, and color within ul*/
 	border-radius: 23px ; 									/*Setting border radius to preference of rounded edges within ul'*/
 	position: fixed ; 										/*Setting position property to 'fixed' to page within ul*/
-	top: 297px ; 											/*Setting ul position to 'top' and desired pixels*/
+	top: 427px ; 											/*Setting ul position to 'top' and desired pixels*/
 	left: -107px ; 											/*Setting ul position to align 'left' and desired pixels*/
 	padding: 10px 20px ; 									/*Setting ul space by adding pixels to padding*/
 	opacity: 0.7 ; 											/*Setting opacity preference within ul*/
@@ -120,7 +120,7 @@ div#quote {
 	box-shadow: 3px 3px 30px 5px rgba(0,255,255,0.2) ;		/*Setting box shadow preference width and color of id 'quote'*/
 	border-radius: 23px ; 									/*Setting border radius to preference of rounded edges of id 'quote'*/
     position:fixed;											/*Setting position property to 'fixed' to page within ul*/
-    top: 32px ; 											/*Setting ul position to 'top' and desired pixels*/
+    top: 82px ; 											/*Setting ul position to 'top' and desired pixels*/
 	left: -106px ; 											/*Setting ul position to align 'left' and desired pixels*/
     opacity: 0.7 ;											/*Setting opacity preference within ul*/
     width:20% ;												/*Setting width of ul by percentage*/
@@ -164,7 +164,7 @@ figcaption {
 	border-radius: 7px ; 									/*Setting border radius to preference of rounded edges of class 'column'*/
 	background: linear-gradient(#D5F1E2 10%,#75D1BF 100%)  ;	/*Setting background gradient effects found on 'W3C' for column*/
 	float: right ;											/*Setting column to float to the 'right'*/
-	margin: 3px ;											/*Setting margin to desired pixels within column*/
+	margin: 10px ;											/*Setting margin to desired pixels within column*/
 	padding: 10px ;											/*Setting padding to desired pixels within column*/
 	width: 35% ;											/*Setting width of column by percentage -- hoping for liquid layout*/
 	text-align: left ;										/*Setting  text to align 'left' in column*/
@@ -174,7 +174,7 @@ figcaption {
 	background: linear-gradient(#D5F1E2 10%,#75D1BF 100%) ;		/*Setting background gradient effects found on 'W3C' for column2*/
 	float: right ;											/*Setting column2, to float to the 'right'*/
 	width: 35% ;											/*Setting width of column2 by percentage -- hoping for liquid layout*/
-	margin: 8px ;											/*Setting margin to desired pixels within column2*/
+	margin: 11px ;											/*Setting margin to desired pixels within column2*/
 	padding: 10px ;											/*Setting padding to desired pixels within column2*/
 	clear: left ;											/*Setting clear property to 'left' to ensure path is clear*/
 }
